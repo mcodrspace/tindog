@@ -17,13 +17,13 @@ p {
 
 .big-heading {
   font-family: 'Montserrat', sans-serif;
-  font-size: clamp(1rem, -0.875rem + 8.333vw, 3.5rem);
+  font-size: clamp(2.5rem, -0.875rem + 8.333vw, 3.5rem);
   font-weight: 900;
   line-height: 1.5;
 }
 
 .section-heading {
-  font-size: 3.5rem;
+  font-size: clamp(2.5rem, -0.875rem + 8.333vw, 3.5rem);
   line-height: 1.5;
 }
 
@@ -123,7 +123,7 @@ p {
 }
 
 .testimonial-text {
-  font-size: 3rem;
+  font-size: clamp(2rem, -0.875rem + 8.333vw, 3rem);
   line-height: 1.5;
 }
 
